@@ -1,8 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(https://i.ytimg.com/vi/317jz-PU7Mg/maxresdefault.jpg);
+  background-repeat: none;
+  background-size: cover;
+  color: #fff;
+}
 
 .boxCard{
     width: 100%;
@@ -26,4 +36,5 @@
     border-radius: 5vw 5vw 5vw 0;
     margin-left: 2vw;
     box-shadow: 0 0 1vw;
+    color: black;
 }
