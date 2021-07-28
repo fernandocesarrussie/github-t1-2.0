@@ -1,4 +1,93 @@
+<<<<<<< HEAD
 p{
     color:gold;
     font-size: 35px;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(https://i.ytimg.com/vi/317jz-PU7Mg/maxresdefault.jpg);
+  background-repeat: none;
+  background-size: cover;
+  color: #fff;
+}
+
+.boxCard{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 2vw 0;
+}
+
+.image{
+    width: 20vw;
+    border-radius: 50%;
+    box-shadow: 1vw 1vw 1vw;
+}
+
+.cardParagraph{
+    font-size: 2vw;
+    background-color: yellow;
+    width: 40vw;
+    padding: 5vw 2vw;
+    border-radius: 5vw 5vw 5vw 0;
+    margin-left: 2vw;
+    box-shadow: 0 0 1vw;
+    color: black;
+}
+
+.lovelove {
+    font-size: 3rem;
+    color: blue;
+    font-weight: bold;
+}
+
+.coracao {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 20px ;
+    animation: pulse 1s infinite alternate ease-in-out;
+    margin: 5rem auto;
+  }
+  
+  @keyframes pulse {
+    0%   {transform: scale(.9) rotate(-135deg);}
+    100% {transform: scale(1.1) rotate(-135deg);}
+  }
+  
+  .quadrado {
+    width: 200px;
+    height: 200px;
+    background: #c70000;
+    position: absolute;
+    
+  }
+  
+  .circulo-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #c70000;
+    position: absolute;
+    top: 100px;
+  }
+  
+  .circulo-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #c70000;
+    position: absolute;
+    left: 100px;
+  }
+>>>>>>> d4bfd935abade0a363eb588323e0fef380a628ed
